@@ -1,4 +1,70 @@
-@media (max-width: 600px) {
+ @media (max-width: 600px){
+    #navbar{
+        position: fixed;
+        width: 200px;
+        height: 100%;
+        background-color: transparent;
+        left: -200px;
+    }
+    #navbar.active{
+        left: 0;
+    }
+    .navbar-links {
+        padding: 10px;
+    list-style: none;
+    display: block;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    
+}
+
+li {
+    font-style: none;
+    list-style-type: none;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    padding: 10px 15px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+a:hover{
+    color: #ffcc5c;
+    
+}
+.logo{
+    display: block;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    margin: 0 auto;
+}
+.logo img{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    transition: ease-in-out
+}
+.logo img:hover {
+    transform: scale(2)
+}
+.toggle-btn {
+    position: absolute;
+    left: 230px;
+    top: 20px;
+    cursor: pointer;
+}
+.toggle-btn span {
+    display: block;
+    width: 40px;
+    text-align: center;
+    font-size: 30px;
+    border: 3px solid black;
+}
+
     .about-grid {
         display: grid;
         grid-template-columns: 1fr 1fr; 

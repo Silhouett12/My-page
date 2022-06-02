@@ -1,7 +1,7 @@
 .about{
-    padding: 40px 40px ;
+    padding: 30px 30px ;
     text-align: center;
-    background: whitesmoke;
+    background: transparent;
 }
 .skill-img {
     transition: ease-in-out;
@@ -12,6 +12,7 @@
 .about-description {
     font-weight: lighter;
     text-align: left;
+    color: white;
 }
 
 .about-title{
@@ -20,7 +21,8 @@
     height: 50px;
     font-weight: bolder;
     font-size: 30px;
-    padding: 20px;
+    padding-top: 30px;
+    color: white;
 }
 .about-grid {
     display: grid;
@@ -29,7 +31,9 @@
     font-weight: bold;
     
 }
-
+.skill-description{
+    color: white;
+}
 .about-grid div:nth-child(1){
     padding: 20px;
     grid-row: 1;

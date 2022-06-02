@@ -1,7 +1,7 @@
 .contact {
-    padding: 90px 0;
+    padding: 30px 30px;
     text-align: center;
-    background: whitesmoke;
+    background: transparent;
     display: block;
 }
 .container{
@@ -12,16 +12,10 @@
     margin: 0 auto;
     padding: 0 20px;
 }
-.title {
-    font-size: 30px;
-    display: flex;
-    color: black;
-    font-weight: bold;
-}
 
-.contact-subtitle{
+.contact-subtitle {
     display: flex;
-    color: black;
+    color: white;
 }
 
 .contact-grid{
@@ -30,9 +24,9 @@
     gap: 30px;
 }
 .contact-grid a {
-    color: black;
+    color: white;
     padding: 20px;
 }
 a:hover {
-    color: coral;
+    color: #ffcc5c;
 }

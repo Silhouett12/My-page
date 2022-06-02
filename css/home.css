@@ -1,12 +1,11 @@
 .home {
-    min-height: 100vh;
+    min-height: 50vh;
     display: block;
-    padding: 30px;
+    padding: 30px 30px;
     justify-content: center;
     align-items: center;
     background: transparent;
-    position: relative;
-} 
+}
 
 .avatar {
     margin: 0;
@@ -20,10 +19,4 @@
     width: 100%;
     height: 100%;
     border-radius: 50%;
-}
-.description {
-    font-size: 50px;
-    text-align: center;
-    font-weight: bold;
-    color: black;
 }
