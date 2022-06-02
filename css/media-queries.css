@@ -35,22 +35,7 @@ a:hover{
     color: #ffcc5c;
     
 }
-.logo{
-    display: block;
-    align-items: center;
-    height: 60px;
-    width: 60px;
-    margin: 0 auto;
-}
-.logo img{
-    background-color: transparent;
-    width: 100%;
-    height: 100%;
-    transition: ease-in-out
-}
-.logo img:hover {
-    transform: scale(2)
-}
+
 .toggle-btn {
     position: absolute;
     left: 230px;
