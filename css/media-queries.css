@@ -10,14 +10,14 @@
         left: 0;
     }
     .navbar-links {
+        background-color: transparent;
         padding: 10px;
     list-style: none;
     display: block;
     height: 100%;
     align-items: center;
     text-align: center;
-    
-}
+    }
 
 li {
     font-style: none;
@@ -27,7 +27,7 @@ li {
 }
 a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 20px;
     font-weight: bold;
 }
