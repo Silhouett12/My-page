@@ -1,8 +1,10 @@
+
 .about{
     padding: 30px 30px ;
     text-align: center;
     background: whitesmoke;
 }
+
 .skill-img {
     transition: ease-in-out;
 }
@@ -34,34 +36,30 @@
 }
 .skill-description{
     color: black;
-}
-.about-grid div:nth-child(1){
     padding: 20px;
+}
+
+.about-grid div:nth-child(1){
     grid-row: 1;
     grid-column: 1;
 }
 .about-grid div:nth-child(2){
-    padding: 20px;
     grid-row: 1;
     grid-column: 2;
 }
 .about-grid div:nth-child(3){
-    padding: 20px;
     grid-row: 1;
     grid-column:3;
 }
 .about-grid div:nth-child(4){
-    padding: 20px;
     grid-row: 2;
     grid-column: 1;
 }
 .about-grid div:nth-child(5){
-    padding: 20px;
     grid-row: 2;
     grid-column: 2;
 }
 .about-grid div:nth-child(6){
-    padding: 20px;
     grid-row: 2;
     grid-column: 3;
 }

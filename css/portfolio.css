@@ -2,4 +2,12 @@
     padding: 30px 30px;
     text-align: center;
     background: whitesmoke;
+    display: block;
 }
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-weight: bold;
+}
+
+

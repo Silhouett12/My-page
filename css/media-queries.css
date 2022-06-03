@@ -32,7 +32,7 @@ a {
     font-weight: bold;
 }
 a:hover{
-    color: #ffcc5c;
+    color: rgb(41, 49, 85);
     
 }
 
@@ -55,6 +55,12 @@ a:hover{
         grid-template-columns: 1fr 1fr; 
         font-weight: bold;
     }
+    .skill-description {
+        padding: 10px;
+        width: 90px;
+        height: 90px;
+    }
+    
     .skill-3{
         display: block;
         grid-row: 4;
@@ -89,14 +95,21 @@ a:hover{
         grid-column: 2;
         grid-row: 2;
     }
-    .about-grid div:nth-child(3){
-        padding: 20px;
+    .about-grid div:nth-child(3){ 
         grid-row: 3;
         grid-column:1;
     }
     .about-grid div:nth-child(6){
-        padding: 20px;
         grid-row: 3;
         grid-column:2;
     }
+
+
+
+.avatar img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 40px;
+}
 }
