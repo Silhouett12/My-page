@@ -5,12 +5,11 @@
     display: block;
 }
 .container{
-    width: 100%;
     display: inherit;
     max-width: 1200px;
     justify-content: inherit;
     margin: 0 auto;
-    
+    height: 100%;
 }
 
 .contact-subtitle {
