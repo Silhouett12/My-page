@@ -2,9 +2,10 @@
     #navbar{
         position: fixed;
         width: 200px;
-        height: 100%;
-        background-color: transparent;
+        height: 240px;
+        background-color: black;
         left: -200px;
+        border: 2px solid white;
     }
     #navbar.active{
         left: 0;
@@ -27,7 +28,7 @@ li {
 }
 a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 20px;
     font-weight: bold;
 }
@@ -104,12 +105,5 @@ a:hover{
         grid-column:2;
     }
 
+ }
 
-
-.avatar img{
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    margin-right: 40px;
-}
-}
